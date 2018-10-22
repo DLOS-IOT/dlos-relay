@@ -1,0 +1,1 @@
+*/5 * * * * cd dlos-relay; node check_daemon.js 1>>~/.config/dlos-relay/check_daemon.log 2>>~/.config/dlos-relay/check_daemon.err

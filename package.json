@@ -1,0 +1,27 @@
+{
+  "name": "dlos-relay",
+  "description": "dlos Relay",
+  "author": "dlos",
+  "version": "0.1.0",
+  "main": "start.js",
+  "keywords": [
+    "relay",
+    "dlos",
+    "full node"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/DLOS-IOT/dlos-relay.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/DLOS-IOT/dlos-relay/issues"
+  },
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "dloscore": "git+https://github.com/DLOS-IOT/dloscore.git"
+  }
+}
